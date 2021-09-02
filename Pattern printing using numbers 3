@@ -1,0 +1,21 @@
+package com.dinesh;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main( String[] args) {
+        int i,j,n;
+        Scanner input = new Scanner(System.in)
+        System.out.print("enter a number:");
+        n= input.nextInt();
+                for(i=1;i<=n;i++){
+                    for(j=i;j<=n;j++){
+                        System.out.print(I+" ");
+                    }
+                        System.out.println();
+
+    }
+
+
+}
+}
